@@ -15,7 +15,7 @@ function Subtotal() {
     }
     const [name, setName] = useState("");
     const [tableNo, setTableNo] = useState();
-    const whatsappLink = "https://wa.me/8398070824?text=" + " items" + " = " + getBasketItems(basket) + " total rupees" + " = " + getBasketTotal(basket) + " name" + " = " +name + " table number = " +tableNo
+    const whatsappLink = "https://api.whatsapp.com/send?phone=8398070824&text=" + " items" + " = " + getBasketItems(basket) + " total rupees" + " = " + getBasketTotal(basket) + " name" + " = " +name + " table number = " +tableNo
     
 
     return (
