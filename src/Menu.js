@@ -53,13 +53,13 @@ function Menu({img , types ,smallName ,smallPrice ,mediumName ,mediumPrice ,larg
                     {types === 3 ? 
                  (                <div className="row">
                     <div className="col-3">
-                        <button onClick={smallClicked} className="myButton mx-0">small</button>
+                        <button onClick={smallClicked} className="myButton mx-0">quarter</button>
                     </div>
                                         <div className="col-5">
-                                <button onClick={mediumClicked} className="mx-0 myButton">medium</button>
+                                <button onClick={mediumClicked} className="mx-0 myButton">half</button>
                     </div>
                                         <div className="">
-                        <button onClick={largeClicked} class="mx-0 myButton">large</button>
+                        <button onClick={largeClicked} class="mx-0 myButton">full</button>
                     </div>
                     </div>) : null
                     }   
