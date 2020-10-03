@@ -16,7 +16,7 @@ function Tawa() {
                     <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={2}
-                            img="/images/1.1ct.jpg"
+                            img="/images/1.1n.jpg"
                             smallName="chicken tikka special"
                             smallPrice={300}
       />    
@@ -43,7 +43,7 @@ function Tawa() {
                                         <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={5}
-                            img="/images/1.4sc.jpg"
+                            img="/images/1.4n.webp"
                             smallName="soya chaap special"
                             smallPrice={250}
                         />    

@@ -10,17 +10,19 @@ function Header()
         
             <nav className="header">
                 {/* shop logo */}
-                <Link to="/" className="header__logo">shop logo</Link>
+                <Link to="/">
+                <img className="shop__logo" src="/images/shopLogo.jpg" alt=""></img>
+                </Link>
 
                 {/* welcome line */}
                 <div className="header__welcomeLine">
-                <h6 className="welcomeLine_top">welcome to our restaurent</h6>
+                <h6 className="welcomeLine_top" style={{fontWeight:664}}>welcome sir/madam</h6>
                     <p className="welcomeLine_bottom">have a nice day !</p>
                     </div>
                 <Link to="/checkout" className="header__link">
-                    <div className="header__optionBasket">
-                        <ShoppingCartIcon />
-                    <span className="header__optionLine2 header__optionBasketCount">{basket?.length}</span>
+                    <div className="header__optionBasket"  style={{ fontSize: 40 }}>
+                        <ShoppingCartIcon style={{ fontSize: 38 }} />
+                    <span className="header__optionLine2 header__optionBasketCount" style={{ fontSize: 38 }}>{basket?.length}</span>
                     </div>
                 </Link>
 
