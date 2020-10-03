@@ -23,7 +23,7 @@ function CheckoutProduct({id, name, price, image })
                     <small>₹</small>
                     <strong>{price}</strong>
                 </p>
-                <button onClick={removeFromBasket}>Remove From Basket</button>
+                <button onClick={removeFromBasket}>Remove this orders</button>
             </div>
         </div>
         </div>

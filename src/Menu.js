@@ -77,7 +77,7 @@ function Menu({img , types ,smallName ,smallPrice ,mediumName ,mediumPrice ,larg
                     
                 </div>
                 <div className="menu__button">
-                <button onClick={addToBag} className="btn btn-sm btn-success btn-block">add to bag  +</button>
+                <button onClick={addToBag} className="btn btn-sm btn-success btn-block">add to orders  +</button>
                 </div>
                 
 

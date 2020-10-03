@@ -4,8 +4,10 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Menu.css";
 import Tawa from "./Tawa";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 function Home() {
     return (
+        <div className="home" >
         <div className="container">
             <div className="buttonLink">
                 <Link to="/tawa">
@@ -53,7 +55,11 @@ function Home() {
                                  <Link to="/momos">
                     <button className="btn btn-danger btn-block p-2 my-4">MOMOS</button>
                 </Link>
+                
             </div>
+            
+        </div>
+        <Footer />
         </div>
     )
 }
