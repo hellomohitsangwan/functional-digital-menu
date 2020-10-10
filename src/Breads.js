@@ -62,7 +62,7 @@ function Bread() {
                                                             <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={106}
-                            img="/images/136mk.jpg"
+                            img="/images/135mkn.png"
                             smallName="masala kulchha"
                             smallPrice={25}
                         />    
