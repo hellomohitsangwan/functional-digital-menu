@@ -16,7 +16,7 @@ function Tawa() {
                     <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={2}
-                            img="/images/1.1n.jpg"
+                            img="/images/1.1n.webp"
                             smallName="chicken tikka special"
                             smallPrice={300}
       />    
@@ -25,7 +25,7 @@ function Tawa() {
                                         <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={3}
-                            img="/images/1.2mts.jpg"
+                            img="/images/1.2mt.jpg"
                             smallName="mutton tikka special"
                             smallPrice={350}
       />    
@@ -63,7 +63,7 @@ function Tawa() {
                                         <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={6}
-                            img="/images/1.6ms.webp"
+                            img="/images/1.6ms.jpg"
                             smallName="mutton seekeh special"
                             smallPrice={250}
       />    
@@ -72,7 +72,7 @@ function Tawa() {
                                         <div className="col-6 col-lg-4 p-3">
                         <Menu 
                             id={7}
-                            img="/images/1.7ck.jpg"
+                            img="/images/1.7ck.webp"
                             smallName="chicken kurchan"
                             smallPrice={250}
       />    
